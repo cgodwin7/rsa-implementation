@@ -6,8 +6,8 @@ This is a basic RSA implementation using some existing Python libraries and code
 
 Extract to a folder. Run the file from the CLI. The following options are available as flags
 
-Options:\n
- -p Message to encrypt\n
- -f Output file name (optional)\n
- -gui Enable GUI (optional)\n
+Options:  
+-p   Message to encrypt  
+-f   Output file name (optional)  
+-gui Enable GUI (optional)  
 
