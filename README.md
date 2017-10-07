@@ -4,7 +4,7 @@ This is a basic RSA implementation using some existing Python libraries and code
 
 # Installation and Use
 
-Extract to a folder. Run the file from the CLI. The following options are available as flags
+Extract to a folder. Run the main.py script from the CLI. The following options are available as flags
 
 Options:  
 -p   Message to encrypt  
