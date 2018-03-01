@@ -1,3 +1,8 @@
+"""
+The GUI class is a WIP gui for the encryption module. Currently served only
+when the --gui flag is set in the main.py script.
+"""
+
 import tkinter
 import main
 

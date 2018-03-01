@@ -1,10 +1,16 @@
+"""
+The Prime script returns a prime number of variable bit sizes.
+Methods isProbablePrime and getPrime check to see if the number generated
+is prime and returns the prime number respectively.
+"""
+
 from random import randrange, getrandbits
 from itertools import repeat
 
 #fetched from http://pythonfiddle.com/prime-number-generation/
 def isProbablePrime(n, t = 7):
     """Miller-Rabin primality test"""
-    
+
     def isComposite(a):
         """Check if n is composite"""
         if pow(a, d, n) == 1:
@@ -30,12 +36,8 @@ def isProbablePrime(n, t = 7):
     return True
 
 def getPrime(n):
-    """Get a n-bit prime"""  
+    """Get a n-bit prime"""
     p = getrandbits(n)
     while not isProbablePrime(p):
-        p = getrandbits(n)     
-    return p    
-    
-if __name__ == "__main__":
-    # get a random prime 500 bits long
-    print(getPrime(1000))
+        p = getrandbits(n)
+    return p
