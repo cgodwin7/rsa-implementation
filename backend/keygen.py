@@ -1,3 +1,8 @@
+"""
+KeyCreator sets up keys via the extended euclidean algorithm
+and serves both public and private 512 bit keypairs.
+"""
+
 from backend import prime
 
 class KeyCreator(object):

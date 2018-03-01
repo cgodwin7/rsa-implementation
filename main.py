@@ -1,5 +1,13 @@
 #!/usr/bin/python
 
+"""
+The Main script fetches user input flags "password", "file", and "gui" as
+options then converts the "password" into Unicode integers. These integers
+are encrypted, then loaded into a file. Upon decryption, the file is read
+and then the integers are decrypted. After this step, the integers are converted
+back into ASCII characters and the "password" is displayed to the user.
+"""
+
 import argparse
 import pickle
 import socket
